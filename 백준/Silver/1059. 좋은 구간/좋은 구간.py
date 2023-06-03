@@ -1,17 +1,17 @@
 L = int(input())
-nums = list(map(int, input().split()))
-target = int(input()) # == n
+S = list(map(int, input().split()))
+n = int(input())
 
-nums.append(0)
-nums.sort()
+S.append(0)
+S.sort()
 
-A = 0
-for i in range(len(nums)-1) :
-    if nums[i] == target or nums[i+1] == target:
-        A = 0
+ans = 0
+for i in range(len(S) - 1):
+    if S[i] == n or S[i+1] == n:
+        ans = 0
         break
-    elif nums[i] < target and target < nums[i+1]:
-        A = (target - nums[i]) * (nums[i+1] - target) - 1
+    elif S[i] < n and n < S[i+1]:
+        ans = (n - S[i]) * (S[i+1] - n) - 1
         break
 
-print(A)
+print(ans)
