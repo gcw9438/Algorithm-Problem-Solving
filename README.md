@@ -1,6 +1,5 @@
 # 알고리즘 문제풀이 소스코드 저장소
 ### 개요
-* BAEKJOON 및 프로그래머스 문제풀이 저장소
-* 문제 맞았을시 자동으로 커밋됨
-* 언어는 C++ or Python 
+* BAEKJOON / CodeUp / 프로그래머스 문제풀이 저장소
+* Languages: C++ / Python 
 
